@@ -1,6 +1,5 @@
 from django.urls import path
-from .views import home_page_view
-
+from .views import HackTheBoxHomeView
 urlpatterns = [
-    path("", home_page_view, name="home"),
+    path('', HackTheBoxHomeView.as_view(), name='hack_the_box_home')
     ]
