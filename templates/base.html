@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cyber-Bytes
+        {% block title %}
+
+        {% endblock title %}</title>
+</head>
+<body>
+    <header>
+        <a href="{% url 'keepa:keepa_home' %}">Keepa</a>
+        <a href="{% url 'hack_the_box:hack_the_box_home' %}">Hack The Box</a>
+        <a href="{% url 'quiz_app:quiz_app_home' %}">Quiz App</a>
+    </header>
+    {% block content %}
+
+    {% endblock content %}
+    <hr>
+    <div>
+        <a href="{% url 'home:contact' %}">Contact</a>
+        <a href="{% url 'home:resume' %}">Resume</a>
+        <a href="{% url 'home:about' %}">About</a>
+        <a href="{% url 'home:home' %}">Home</a>
+    </div>
+</body>
+</html>
