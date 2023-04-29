@@ -37,10 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'hack_the_box.apps.HackTheBoxConfig',
-    'home.apps.HomeConfig',
-    'keepa.apps.KeepaConfig',
-    'quiz_app.apps.QuizAppConfig',
 ]
 
 MIDDLEWARE = [
